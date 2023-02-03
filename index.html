@@ -2,10 +2,23 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-<script src="index.js"></script>
-    <title>A tester</title>
 
- 
-   
+<link rel="stylesheet" href="index.css">
+    <title>Chicken Counter</title>
+    </head>
+
+
+    <body>
+      <p id="welcome-el">
+      </p>
+<h1>Chickens Counted:</h1>
+<h2 id ="count-el">0</h2>
+<div>
+  <button id="increment-btn" onclick="increment()">+ 1 CHICKEN</button>
+ </div>
+  <button id="save-btn" onclick="save()">SAVE</button>
+  <button id="timesTen" onclick="xTen()">+ 10 Chickens</button>
+  <p id="save-el">Previous Chickens Counted: 0</p>
+  <script src="index.js"></script>
   </body>
 </html>
